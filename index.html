@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<meta charset = "utf-8">
+
+<head>
+<meta name="autor" content="Jhonatan Paula">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="menu.css">
+<script src="menu.js"></script>
+<script src="Darkmode.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+
+</script>
+</head>
+<body>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Sobre</a>
+  <a href="#">Fornecedores</a>
+  <a href="#">Serviços</a>
+  <a href="#">Contato</a>
+</div>
+
+<div id="main">
+ <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+</div>
+
+		<section id="banner">
+
+<div id="conteudo" align="center">
+    <h1>TRADER DE SUCESSO</h1>
+   		</section>
+
+
+    	
+<h1> Aqui está 5 topicos para apreender a ser um Trader de sucesso! </h1>
+
+<h2> 1. Descubra o seu perfil trader </h2>
+<h2> 2. Mantenha-se em busca por conhecimento </h2>
+<h2> 3. Construa o seu plano de trading </h2>
+<h2> 4. O controle emocional necessário para ser um trader</h2>
+<h2> 4. Aja como um trader profissional</h2>
+
+				
+			
+		
+   
+</div>
+
+   
+</div>
+
+<footer id="footer">
+				<div class="inner">
+
+					<h3>Quer aprender a ser um trader de sucesso, preencha esse formulário e responda:</h3>
+					<h2> Porque você quer ser um trader de sucesso? </h2>
+
+					<form name="form1" action="#" method="post">
+
+						
+							<div class="campo">
+							<label for="name">Nome</label>
+							<input name="name" id="name" type="text" placeholder="Nome">
+						</div>
+						<div class="campo">
+							<label for="email">E-mail</label>
+							<input name="email" id="email" type="email" placeholder="E-mail">
+						</div>
+						<div class="fcampo">
+							<label for="message">Mensagem</label>
+							<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+						</div>
+						<ul class="actions">
+							<li><button class="botao submit" type="submit" name="submit" onclick="valida()">Enviar</button></li>
+						</ul>
+					</form>
+
+					
+				</div>
+			</footer>
+
+</body>
+</html> 
